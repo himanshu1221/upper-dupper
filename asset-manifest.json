@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/upper-dupper/static/css/main.e9c6a2a4.css",
+    "main.js": "/upper-dupper/static/js/main.776b86eb.js",
+    "static/js/787.ccea00b3.chunk.js": "/upper-dupper/static/js/787.ccea00b3.chunk.js",
+    "index.html": "/upper-dupper/index.html",
+    "main.e9c6a2a4.css.map": "/upper-dupper/static/css/main.e9c6a2a4.css.map",
+    "main.776b86eb.js.map": "/upper-dupper/static/js/main.776b86eb.js.map",
+    "787.ccea00b3.chunk.js.map": "/upper-dupper/static/js/787.ccea00b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9c6a2a4.css",
+    "static/js/main.776b86eb.js"
+  ]
+}
