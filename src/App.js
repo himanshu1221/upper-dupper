@@ -4,6 +4,11 @@ import Navbar from './Components/Navbar';
 import TextForm from './Components/TextForm';
 import React, {useState} from 'react'
 import Alert from './Components/Alert';
+import About from './Components/About';
+import { Route,Routes } from 'react-router-dom';
+
+
+
 function App() {
   const [mode, setMode] = useState('light')
 
@@ -34,10 +39,13 @@ function App() {
 
   return (
     <> 
-<Navbar title="UpPPErDuPPer" about= "About Us" mode = {mode} toggleMode = {toggleMode}/>
-<Alert alert={alert}/>
-<TextForm showAlert={showAlert} heading = "Enter the text for analysing" mode={mode}/>
-
+      <Navbar title="UpPPErDuPPer" about= "About Us" mode = {mode} toggleMode = {toggleMode}/>
+      <Alert alert={alert}/>
+      <Routes>
+          <Route exact path="/about" element = {<><About/></>}/>
+          <Route exact path="/" element = {<TextForm showAlert={showAlert} heading = "Enter the text for analysing" mode={mode}/>}/>
+        </Routes>
+      {/* <About/> */}
     </>
   );
 }

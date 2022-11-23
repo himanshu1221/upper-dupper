@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import PropTypes from 'prop-types'
 
 import '/home/himanshu_chhatwal/Downloads/ReactJS/UpPPEr DuPPer/upper-dupper/src/App.css';
 
